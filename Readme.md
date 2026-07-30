@@ -34,4 +34,3 @@
 
 - Vec<T> → danh sách động (transactions, accounts, events...). -> always used
 - Array [T; N] → dữ liệu cố định (ví dụ 32 bytes của public key, hash, signature). -> N: Numbers of elements , T: type
--

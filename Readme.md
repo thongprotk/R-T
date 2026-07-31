@@ -32,5 +32,11 @@
 - a[index] \* Index hợp lệ → lấy giá trị. \* Index không hợp lệ → panic.
 - a.get(index) \* không panic, trả về Option, buộc bạn xử lý trường hợp không có phần tử
 
-- Vec<T> → danh sách động (transactions, accounts, events...). -> always used
-- Array [T; N] → dữ liệu cố định (ví dụ 32 bytes của public key, hash, signature). -> N: Numbers of elements , T: type
+- Vec<T> → danh sách động (transactions, accounts, events...). → always used
+- Array [T; N] → dữ liệu cố định (ví dụ 32 bytes của public key, hash, signature). → N: Numbers of elements , T: type
+- .len() → Length
+- .rev() → reverse
+- dbg!() → debug
+
+- struct name_struct {} → define struct
+- impl → define method for one Struct
